@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: easyCells
+Version: 0.0.1
+Summary: simple python package for easy use with XlsxWriter
+Author: Edwin Saul
+Author-email: edwinsaulpm@gmail.com
+Keywords: XlsxWriter xlsx document
+Requires-Dist: XlsxWriter
