@@ -17,4 +17,4 @@ for scripting and easy data collect
                      █▀██████▀
 ```
  
-
+use in simple aplications for show custom asciiart 

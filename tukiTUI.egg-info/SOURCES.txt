@@ -1,7 +1,0 @@
-README.md
-setup.py
-tukiTUI/__init__.py
-tukiTUI.egg-info/PKG-INFO
-tukiTUI.egg-info/SOURCES.txt
-tukiTUI.egg-info/dependency_links.txt
-tukiTUI.egg-info/top_level.txt

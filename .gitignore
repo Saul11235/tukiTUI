@@ -1,0 +1,9 @@
+*.swp
+*.pyc
+*/__pycache__
+*.xlsx
+
+/build
+/tukiTUI.egg-info
+
+/playground
