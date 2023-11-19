@@ -28,17 +28,18 @@ def _editLineArt(line,dicChanges):
     return line
 
 #-----------------------------------
-def _fitToString(obj,dim):
+def fitToString(obj,dim):
     strobj=str(obj)
-    if len(strobj)==dim: return strobj
-    if len(strobj)>dim : 
-        pass
-    else:
-        pass
+    if   len(strobj)==dim: return strobj
+    elif len(strobj)>dim :return strobj[0:dim]
+    else: return strobj+" "*(dim-len(strobj))
 #-----------------------------------
 
 
 if __name__=="__main__":
+    print([fitToString(3,13)])
+    print([fitToString("holslslsls",13)])
+    print([fitToString("abc",13)])
     art=""" 
 
     ***********
@@ -57,4 +58,4 @@ if __name__=="__main__":
           " ": "kdkd"
           }
 
-    print(editArt(art,dicc))
+    #print(editArt(art,dicc))
